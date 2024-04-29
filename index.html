@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/responsive.css">
+     <title>vEducate</title>
+</head>
+<body>
+
+   <nav class="navbar background h-nav-resp">
+    <ul class="nav-list v-class-resp">
+        <div class="logo"><img src="img/img.jfif" alt="logo"></div>
+        <li><a href="#">Home </a></li>
+        <li><a href="#html">Html </a></li>
+        <li><a href="#css">Css </a></li>
+        <li><a href="#javascript">Java Script </a></li>
+        <li><a href="#c">C </a></li>
+        <li><a href="#c++">C++ </a></li>
+        <li><a href="#python">Python </a></li>
+        <li><a href="#java1">Java </a></li>
+    </ul>
+    <div class="right-nav v-class-resp">
+        <input type="text" name="search" id="search">
+        <button class="btn btn-sm" onclick="welcome()">search</button>
+    </div>
+    <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+   </nav> 
+
+   <section class="background firstsection id="home" >
+    <div class="box-main ">
+        <div class="firsthalf">
+            <p class="text-big">Here - You will learn about Programming Languages</p>
+            <p class="text-small">In this website of vEducate we will learn the languages we use to build websites, programs & software are HTML, CSS, JavaScript, C, C++, Phython & Java.</p>
+            <!-- <div class="buttons">
+                <button class="btn">Html</button>
+                <button class="btn">Css</button>
+                <button class="btn">JavaScript</button>
+                
+            </div> -->
+        </div> 
+        <div class="secondhalf">
+            <img src="img/img.jfif" alt="image" width="250px">
+        </div>
+    </div>
+   </section>
+
+   <section class="section" id="html">
+    <div class="paras">
+    <p class="sectiontag text-big">Html</p>
+    <p class="sectionsubtag text-small">HTML stands for HyperText Markup Language. "Markup language" means that, rather than using a programming language to perform functions, HTML uses tags to identify different types of content and the purposes they each serve to the webpage.Markup languages work in the same way as you just did when you labeled those content types, except they use code to do it -- specifically, they use HTML tags, also known as "elements." </p>
+    </div>
+    <div class="thumbnail">
+        <a href="https://www.w3schools.com/html/default.asp"><img src="img/html.png" alt="image" class="imgfluid"></a>
+    </div>
+</section>
+
+<section class="section section-left" id="css">
+    <div class="paras">
+    <p class="sectiontag text-big">Css</p>
+    <p class="sectionsubtag text-small">CSS stands for Cascading Style Sheets. This programming language dictates how the HTML elements of a website should actually appear on the frontend of the pageHTML provides the raw tools needed to structure content on a website. CSS, on the other hand, helps to style this content so it appears to the user the way it was intended to be seen. These languages are kept separate to ensure websites are built correctly before they're reformatted. If HTML is the drywall, CSS is the paint. </p>
+    </div>
+    <div class="thumbnail">
+        <a href="https://www.w3schools.com/css/default.asp"><img src="img/css.png"  alt="image" class="imgfluid"></a>
+    </div>
+</section>
+
+<section class="section" id="javascript">
+    <div class="paras">
+    <p class="sectiontag text-big">Java Script</p>
+    <p class="sectionsubtag text-small">JavaScript is a more complicated language than HTML or CSS, and it wasn't released in beta form until 1995. Nowadays, JavaScript is supported by all modern web browsers and is used on almost every site on the web for more powerful and complex functionality.JavaScript is a logic-based programming language that can be used to modify website content and make it behave in different ways in response to a user's actions.</p>
+    </div>
+    <div class="thumbnail">
+       <a href="https://www.w3schools.com/js/default.asp"><img src="img/javascript.png" alt="image" class="imgfluid"></a>
+    </div>
+</section>
+
+<section class="section section-left" id="c">
+    <div class="paras">
+    <p class="sectiontag text-big">C</p>
+    <p class="sectionsubtag text-small">C is a general-purpose, high-level language that was originally developed by Dennis M. Ritchie to develop the UNIX operating system at Bell Labs. C was originally first implemented on the DEC PDP-11 computer in 1972. In 1978, Brian Kernighan and Dennis Ritchie produced the first publicly available description of C, now known as the K&R standard. </p>
+    </div>
+    <div class="thumbnail imgc">
+        <a href="https://www.w3schools.com/c/index.php"><img src="img/c.jfif" alt="image"  class="imgfluid"></a>
+    </div>
+</section>
+
+<section class="section" id="c++">
+    <div class="paras">
+    <p class="sectiontag text-big">C++</p>
+    <p class="sectionsubtag text-small">C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language.</p>
+    <br>
+    <p class="sectionsubtag text-small"> C++ is a middle-level language rendering it the advantage of programming low-level (drivers, kernels) and even higher-level applications (games, GUI, desktop apps etc.). The basic syntax and code structure of both C and C++ are the same. </p>
+    </div>
+    <div class="thumbnail">
+       <a href="https://www.w3schools.com/cpp/default.asp"><img src="img/c++.jfif" alt="image"  class="imgfluid"></a>
+    </div>
+</section>
+
+<section class="section section-left" id="python">
+    <div class="paras">
+    <p class="sectiontag text-big">Python</p>
+    <p class="sectionsubtag text-small">Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected.</p>
+      
+    <p class="sectionsubtag text-small">Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0. & Python 2.0 was released in 2000. Python 3.0, released in 2008, was a major revision not completely backward-compatible with earlier versions. Python 2.7.18, released in 2020, was the last release of Python 2.</p>
+    </div>
+    <div class="thumbnail">
+        <a href="https://www.w3schools.com/python/default.asp"><img src="img/python.jfif" alt="image" class="imgfluid"></a>
+    </div>
+</section>
+
+<section class="section" id="java1">
+    <div class="paras">
+    <p class="sectiontag text-big">Java</p>
+    <p class="sectionsubtag text-small">Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices. Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications. </p>
+    </div>
+    <div class="thumbnail">
+       <a href="https://www.w3schools.com/java/default.asp"><img src="img/java.jfif" alt="image" class="imgfluid"></a>
+    </div>
+</section>
+<footer>
+    <p class="text-footer background">
+    copyright &copy; 2025 - All rights reserved
+    </p>
+</footer>
+<script src="js/resp.js"></script>
+</body>
+</html>
